@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica 1.16</title>
+    <!-- Creado por Alberto Vidal el 12/11/2019 -->
+    <link rel="stylesheet" href="estilo1_16.css">
+</head>
+<body>
+    <header>
+        <h1>Práctica 1.16</h1><br>
+        <h2>Formulario 1</h2><br>
+    </header>
+    <main>
+        <table border= "0" id="1">
+            <tr>
+        <td>
+            <p>Tratamiento: <br>
+            <input type="radio" name="sexo" value="Sr">Sr.
+            <input type="radio" name="sexo" value="Sra">Sra.
+        </p>
+    </td>
+    <td>
+        <p>Nombre: <br>
+            <input type="text">
+        </p>
+    </td>
+    <td>
+            <p>Apellido1: <br>
+                <input type="text">
+            </p>
+        </td>
+        <td>
+                <p>Apellido2: <br>
+                    <input type="text">
+                </p>
+            </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Tipo Doc: <br>
+                <select name="menu1">
+                    <option value="dni">D.N.I</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>N.doc: <br>
+                <input type="text">
+            </p>
+        </td>
+        <td>
+            <p>Fecha de nacimiento: <br>
+                <input type="date">
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>País de nacimiento: <br>
+                <select name="menu2">
+                    <option value="esp">ESPAÑA</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Nacionalidad: <br>
+                <select name="menu3">
+                    <option value="esp">ESPAÑA</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Segunda nacinalidad: <br>
+                <select name="menu4">
+                    <option value="ninguna">Ninguna</option>
+                    <option value="esp">ESPAÑA</option>
+                    <option value="otra">Otra</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>País residencial fiscal: <br>
+                <select name="menu5">
+                    <option value="esp">ESPAÑA</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Trabajo: <br>
+                <select name="menu6">
+                    <option value="null">Sin empleo</option>
+                    <option value="empleo">Con empleo</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Tipo de actividad: <br>
+                <select name="menu7">
+                    <option value="tareas">Tareas hogar</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="desempleado">Desempleado</option>
+                    <option value="jubilado">Jubilado</option>
+                    <option value="pensionista">Pensionista</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Sector profesional: <br>
+                <select name="menu8">
+                    <option value="No_trabaja">No trabaja</option>
+                    <option value="Banca">Banca</option>
+                    <option value="Construccion">Construcción</option>
+                    <option value="Energia">Energía</option>
+                    <option value="Industria">Industria</option>
+                    <option value="Recursos_humanos">Recursos Humanos</option>
+                    <option value="Servicios">Servicios</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Empresa: <br>
+                <input type="text">
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Propósito de la cuenta: <br>
+                <select name="menu9">
+                    <option value="ahorro">Ahorro</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </p>
+        </td>
+        <td>
+            <p>Origen de sus ahorros: <br>
+                <select name="menu10">
+                    <option value="pension">Pensión</option>
+                    <option value="nomina">Nómina</option>
+                </select>
+            </p>
+        </td>
+    </tr>
+        <tr class="gris">
+            <td>
+                <p>Tipo de vía: <br>
+                    <select name="menu11">
+                        <option value="calle">Calle</option>
+                        <option value="avenida">Avenida</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+            </td>
+            <td colspan="2">
+                <p>Dirección: <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>Número: <input type="number"> Piso: <input type="number">
+            </p>
+            </td>
+        </tr>
+        <tr class="gris">
+            <td>
+                <p>Urb./Pol./Otros <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>Localidad* <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>Provincia* <br>
+                    <select name="menu12">
+                        <option value="Madrid">Madrid</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </p>
+            </td>
+            <td>
+                <p>Código Postal* <br>
+                    <input type="text">
+                </p>
+            </td>
+        </tr>
+        <tr class="gris">
+            <td>
+                <p>Teléfono movil: <br>
+                    <input type="number">
+                </p>
+            </td>
+            <td>
+                <p>Teléfono particular: <br> 
+                    <input type="number">
+                </p>
+            </td>
+            <td colspan="2">
+                <p>Dirección de email:* <br>
+                    <input type="text">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"> <hr>
+                <p>Para ofrecerle un mejor servicio nos sería útil conocer si posee en otra entidad: <br>
+                    <input type="checkbox" name="casilla1">Plan de pensiones
+                    <input type="checkbox" name="casilla2">Fondos
+                    <input type="checkbox" name="casilla3">Acciones
+                    <input type="checkbox" name="casilla4">Hipoteca
+                    <input type="checkbox" name="casilla5">Préstamo
+                    <input type="checkbox" name="casilla6">Seguro de Vida
+                </p>
+            </td>
+            </tr>
+            <tr>
+                <td colspan="4"><hr>
+                  <div id="boton">
+                      <p id="texto">Continuar</p>
+                  </div>
+                </td>
+            </tr>
+    </table><br>
+    <h2>Formulario 2</h2><br>
+    <h2 id="cuenta"> <img id="imagen" src="img/reloj.jpg" alt="error" style=> Abra su cuenta nómina en menos de 5 minutos.</h2>
+    </main><br>
+    <table align="center" border="0">
+        <tr>
+            <td>
+                <p>E-mail*: <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>DNI o tarjeta de residencia*: <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>Fecha de nacimiento*: <br>
+                    <input type="date">
+                </p>
+            </td>
+        </tr>
+    </table><br>
+    <p class="centro">Consulte la información de la cuenta nómina que también encontrará en el apartado "información legal"</p>
+    <object id="pdf" data="img/InfPrecontractual.pdf" type=""></object>
+</main>
+</body>
+</html>

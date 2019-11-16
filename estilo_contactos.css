@@ -1,0 +1,22 @@
+@charset "utf-8";
+img.instagram{
+    width: 180px;
+    height: 180px;
+}
+img.facebook{
+    width: 180px;
+    height: 180px;
+}
+img.twitter{
+    width: 180px;
+    height: 180px;
+}
+p.texto_instagram{
+text-align: right;
+}
+p.texto_facebook{
+text-align: center;
+}
+p.texto_twitter{
+text-align: left;
+}
